@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+    background-color: #343030;
+}
+
+ h1, h2 {
+    font-family: 'Bungee Inline', cursive;
+    display: block;
+    text-align: center;
+ }
+
+ h1 {
+    font-size: 75px;
+    color: #FDDB61;
+ }
+
+ h2 {
+     font-size: 40px;
+     color: #39BAAC;
+ }
+
+ a, input[type='submit'] {
+     display: block;
+     text-decoration: none;
+     background-color: skyblue;
+     color: #000;
+     border-radius: 5px;
+     padding: 10px;
+     vertical-align: baseline;
+     font-family: 'Raleway', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    width: fit-content;
+ }
+
+ .form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+ p {
+     color: white;
+ }
+
+ .form p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+ }
+
+ .log_out {
+     display: block;
+     float: left;
+ }
