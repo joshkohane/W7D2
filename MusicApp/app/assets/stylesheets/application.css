@@ -80,3 +80,11 @@ body {
      display: block;
      float: left;
  }
+
+ li {
+    display: block;
+    list-style: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;     
+ }
